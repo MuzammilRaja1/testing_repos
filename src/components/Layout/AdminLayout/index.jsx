@@ -8,6 +8,7 @@ const AdminLayout = ({ children }) => {
   const toggleSidebar = () => {
     setIsOpen(!isOpen);
   };
+  console.log("verified")
 
   const links = [
     { to: "/admin/dashboard", label: "Home", icon: <FaHome /> },
